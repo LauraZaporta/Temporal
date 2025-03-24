@@ -6,10 +6,40 @@
 a la seguretat i quins danys pot arribar a fer un atac en aquesta vulnerabilitat. Enumera 
 diferents mesures i tècniques per poder evitar-les.</h4>
 
+- <u>Fallades criptogràfiques: </u> 
+
+**Què són?** Dintre de la informàtica són un tipus de fallades que succeeixen quan la
+criptografia, dissenyada per resguardar informació i dades mitjançant l'encriptació,
+no compleix la seva funció correctament. Aquestes es poden donar per diversos motius:
+per l'aplicació d'algorismes criptogràfics poc robusts o perillosos, pel mal l'ús
+d'algorismes criptogràfics, per falles en l'estructura del sistema...
+
+**Quin és el seu impacte?** Depenent del tipus de fallada dintre de les criptogràfiques
+podria resultar en una pèrdua de dades, filtració d'informació confidencial, facilitació
+d'invasió al sistema i, en el pitjor dels casos, una bretxa de dades a gran escala.
+
+**Com es poden evitar?** Es poden evitar seguint els següents consells:
+fer ús d'algorismes i protocols criptogràfics que tinguin el reconeixement de ser segur i
+d'estar actualitzats, aplicar-los adequadament (seguint bones pràctiques), dissenyar
+el sistema per a què gestioni els elements criptogràfics correctament, fer
+proves periòdiques per identificar i corregir possibles fallades.
+
+- <u>Injecció: </u>
+
+**Què són?** 
+
+**Quin és el seu impacte?**
+
+**Com es poden evitar?**
+
+- <u>Falles d'identificació i autenticació: </u>
+
 -------------
 
 ## Exercici 2
 
+<h4>Obre el següent enllaç ([sql inseckten](https://www.sql-insekten.de/)) i realitza un mínim de 7 nivells fent servir 
+tècniques d’injecció SQL.</h4>
 <h4> a) Copia cada una de les sentències SQL resultant que has realitzat a cada nivell i 
 comenta que has aconseguit.</h4>
 <h4> b) Enumera i raona diferents formes que pot evitar un atac per SQL injection en 
@@ -71,3 +101,5 @@ desencriptar. No cal guardar-les en memòria persistent.</h4>
 ## Exercici 6
 
 #### Referències consultades:
+
+https://lab.wallarm.com/what/a02-2021-fallas-criptograficas-owasp-conozca-mejor-este-problema-cibernetico/?lang=es
