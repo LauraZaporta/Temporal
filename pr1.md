@@ -103,3 +103,5 @@ desencriptar. No cal guardar-les en memòria persistent.</h4>
 #### Referències consultades:
 
 https://lab.wallarm.com/what/a02-2021-fallas-criptograficas-owasp-conozca-mejor-este-problema-cibernetico/?lang=es
+
+https://www.contrastsecurity.com/glossary/injection-attack-types
