@@ -26,20 +26,44 @@ proves periòdiques per identificar i corregir possibles fallades.
 
 - <u>Injecció: </u>
 
-**Què són?** 
+**Què són?** Són un tipus d'atac informàtic que insereix entrades d'informació malicioses
+o introdueix codi perillós mitjançant una aplicació a un altre sistema. En aquest tipus 
+d'atac, els inputs o el codi maliciós són "injectats" al programa com a part d'una consulta
+o una comanda.
 
-**Quin és el seu impacte?**
+**Quin és el seu impacte?** Un atac d'injecció exitós pot conduir a: l'obtenció per part
+de l'atacant de funcionalitats del sistema de les quals no hauria de tindre accés,
+l'adquisició, corrupció o eliminació dels continguts de la base de dades del sistema i,
+en el pitjor dels casos, la destrucció completa del sistema.
 
-**Com es poden evitar?**
+**Com es poden evitar?** Amb l'ús d'eines com firewalls (WAFs), testejos
+de la seguretat de les aplicacions amb tests unitaris i software
+extern (SAST, DAST) i, com a més actual i eficient, Contrast Security (IAST). 
 
-- <u>Falles d'identificació i autenticació: </u>
+- <u>Fallades d'identificació i autenticació: </u>
+
+**Què són?** Són les fallades relacionades amb l'àrea de ciberseguretat relativa a 
+_l'autenticació_ que engloba processos com tancar sessió, les preguntes de verificació,
+la recuperació de contrasenyes, la funció de recordar l'usuari i la contrasenya, 
+l'actualització de les dades d'una conta i altres.
+
+**Quin és el seu impacte?** Amb aquestes fallades l'atacant guanya accés no autoritzat
+a dades personals, informació de negoci privada i altres. Això condueix a una bretxa 
+de privacitat, a una potencial pèrdua d'ingressos important i, a més, la reputació
+de l'empresa vulnerada es veurà molt afectada.
+
+**Com es poden evitar?** Controlant la durada de la sessió, rotant i invalidant la ID
+de les sessions (referent a canviar la ID de la sessió després de certes operacions o
+després de cert temps), realitzant autenticacions multi factor MFA (no només es valida
+amb contrasenya) i implementar mesures de protecció de força bruta (per exemple: limitar 
+el nombre d'intents d'inici de sessió o afegir CAPTCHAs).
 
 -------------
 
 ## Exercici 2
 
-<h4>Obre el següent enllaç ([sql inseckten](https://www.sql-insekten.de/)) i realitza un mínim de 7 nivells fent servir 
-tècniques d’injecció SQL.</h4>
+<h4>Obre el següent enllaç ([sql inseckten](https://www.sql-insekten.de/)) i realitza un mínim 
+de 7 nivells fent servir tècniques d’injecció SQL.</h4>
 <h4> a) Copia cada una de les sentències SQL resultant que has realitzat a cada nivell i 
 comenta que has aconseguit.</h4>
 <h4> b) Enumera i raona diferents formes que pot evitar un atac per SQL injection en 
@@ -105,3 +129,7 @@ desencriptar. No cal guardar-les en memòria persistent.</h4>
 https://lab.wallarm.com/what/a02-2021-fallas-criptograficas-owasp-conozca-mejor-este-problema-cibernetico/?lang=es
 
 https://www.contrastsecurity.com/glossary/injection-attack-types
+
+https://keepcoding.io/blog/que-es-broken-authentication/
+
+https://brightsec.com/blog/broken-authentication-impact-examples-and-how-to-fix-it/
